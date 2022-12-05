@@ -14,4 +14,15 @@
   * Emission - 텍스쳐 밝기 조절
   * Tiling - 텍스쳐 반복 타일 개수
   * Physics Material - 탄성과 마찰을 다루는 물리적인 재질 
+    * Bounciness - 탄성력
+    * Friction - 마찰력
+    * Bounciness Combine - 다음 탄성을 계산하는 방식 (최대로)
+    * Friction Combine - 다음 마찰력을 계산하는 방식 (최소로)
+    
+### 물체 필수 요소
+1. Mesh
+2. Material
+3. Collider
+4. RigidBody
+    
 
