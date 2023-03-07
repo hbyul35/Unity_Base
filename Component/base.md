@@ -1,5 +1,9 @@
 # Base
 
+* GameObject : 게임을 구성하는 기본요소이다.  
+* Empty GameObject : 다른 객체를 자식으로 두기 위해 사용하며, Transform 컴포넌트만 가지고 있다. 화면에는 보이지않는다.  
+* Package : 유니티 기능이나 애셋을 모아놓은 것이다.  
+
 * Rigidbody - 중력의 영향을 주는 컴포넌트
   * Mass - 충돌했을 때 영향을 주는 정도 (무게)
   * Use Gravity - 중력 여부
