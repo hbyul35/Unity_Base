@@ -1,10 +1,10 @@
 # Unity
 
 * [Base](https://github.com/hbyul35/Unity_Base/blob/main/Component/base.md)
-* [Code]()
+* [Code](https://github.com/hbyul35/Unity_Base/blob/main/Component/Code.md)
 
 ## 과제물
-* [Base](https://github.com/hbyul35/Unity_Base/blob/main/Component/base.md)
+* [Chapter01]()
 
 ## Project
 * []()
