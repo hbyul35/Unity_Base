@@ -56,7 +56,20 @@
 - 인스턴스(instance) : 씬에 생성된 게임오브젝트
 - 프리팹으로부터 인스턴스 생성 : 에셋으로 존재하는 게임오브젝트를 복제하여 씬에 생성
 - 프리팹을 변경하면 프로팹으로부터 생성된 모든 인스턴스에도 적용됨
-- 속성 변경시 “Auto Save” 체크
+- 속성 변경시 “Auto Save” 체크  
+
+### Prefab override
+- 프리팹으로부터 생성된 인스턴스의 속성을 변경
+- 프리팹으로부터 물려받은 값을 무시하고 덮어쓰는 동작
+  - “Open” 버튼 : 프리팹 (편집) 모드로 전환됨, Alt 키를 누른채 클릭하면 프리팹만 편집하는 모드로 전환됨
+  - “Select” 버튼 : 이 게임오브젝트를 생성할 때 사용한 프리팹을 찾아줌
+    - Project 창에서 해당 프리팹이 선택됨 
+  - “Overrides” 버튼 : 프리팹으로부터 물려받은 속성 중에 “오버라이드"한 속성을 표시함
+    - 속성 중에 : 위치(Position)와 방향(Rotation)은 해당하지 않음
+    
+### Prefab variant
+- 기존 프리팹으로부터 파생된 프리팹으로, 상속 개념과 비슷하다
+
     
 ## 유니티 왼손 좌표계 ( Left_Handed Coordinate System )  
 ![Untitled](https://user-images.githubusercontent.com/80669633/223623193-150effb1-6aca-4dfa-8fc8-cd28e9d4cc80.png)
@@ -83,6 +96,5 @@
 3. Collider
 4. RigidBody  
 
-
-
 - DirectionalLight : 방향이 중요한 주 광원
+
