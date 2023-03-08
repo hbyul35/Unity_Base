@@ -1,17 +1,22 @@
 # Base
 
-* GameObject : 게임을 구성하는 기본요소이다.  
-* Empty GameObject : 다른 객체를 자식으로 두기 위해 사용하며, Transform 컴포넌트만 가지고 있다. 화면에는 보이지않는다.  
-* Package : 유니티 기능이나 애셋을 모아놓은 것이다.  
+## GameObject  
+- 게임을 구성하는 기본요소   
+- Empty GameObject : 다른 객체를 자식으로 두기 위해 사용하며, Transform 컴포넌트만 가지고 있다. 화면에는 보이지않는다.  
 
-* Rigidbody - 중력의 영향을 주는 컴포넌트
+## 패키지 매니저  
+- 패키지(package) : 유니티 기능이나 애셋을 모아놓은 것  
+
+## Rigidbody 
+- 중력의 영향을 주는 컴포넌트
   * Mass - 충돌했을 때 영향을 주는 정도 (무게)
   * Use Gravity - 중력 여부
   * Is Kinematic - 외부 물리 효과 적용 여부
   
-* Collider - 물리효과를 주는 컴포넌트
+## Collider  
+- 물리효과를 주는 컴포넌트
 
-* Material - 재질
+## Material  
   * metalic  - 금속 재질 수치
   * Smoothness - 빛 반사 수치
   * Albedo - 색상 / 이미지도 드래그앤드랍으로 삽입 가능(Texture)
@@ -23,22 +28,18 @@
     * Bounciness Combine - 다음 탄성을 계산하는 방식 (최대로)
     * Friction Combine - 다음 마찰력을 계산하는 방식 (최소로)
     
+## 유니티 좌표계 ( Coordinate System )  
+- Local : 오브젝트 중심의 좌표계  
+- World : 월드 중심의 좌표계  
+
+- CW (Clock_Wise) : 시계방향  
+- CCW (Count Clock_Wise) : 반시계방향  
+    
 ### 물체 필수 요소
 1. Mesh
 2. Material
 3. Collider
 4. RigidBody  
-    
-    <hr/>
-    
-로컬 좌표계  
-월드 좌표계  
-
-CW (Clock_Wise) : 시계방향  
-CCW (Count Clock_Wise) : 반시계방향  
-
-왼손좌표계(Left-Hand Coordinate System)  
-오른손 좌표계(Right-Hand Coordinate System)  
 
 - Unity : Y-UP Left Hand  
 - Unreal : Z-UP Left Hand  
