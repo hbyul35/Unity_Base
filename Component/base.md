@@ -27,6 +27,20 @@
 1. Mesh
 2. Material
 3. Collider
-4. RigidBody
+4. RigidBody  
     
+    <hr/>
+    
+로컬 좌표계  
+월드 좌표계  
 
+CW (Clock_Wise) : 시계방향  
+CCW (Count Clock_Wise) : 반시계방향  
+
+왼손좌표계(Left-Hand Coordinate System)  
+오른손 좌표계(Right-Hand Coordinate System)  
+
+- Unity : Y-UP Left Hand  
+- Unreal : Z-UP Left Hand  
+
+- DirectionalLight : 방향이 중요한 주 광원
