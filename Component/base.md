@@ -1,5 +1,7 @@
 # Base
 
+게임 오브젝트 -> 컴포넌트 -> 
+
 ## GameObject  
 - 게임을 구성하는 기본요소   
 - Empty GameObject : 다른 객체를 자식으로 두기 위해 사용하며, Transform 컴포넌트만 가지고 있다. 화면에는 보이지않는다.  
