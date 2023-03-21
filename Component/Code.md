@@ -23,19 +23,19 @@ Rigidbody 관련 코드는 FixedUpdate에서 사용
   ```
 
   
-  AddForce   
+ # AddForce   
   
-  Force.Force : 매개변수를 임펄스(N/s)로 해석하고 Force* dt/m
+1. Force.Force : 매개변수를 임펄스(N/s)로 해석하고 Force* dt/m
 
-Force.Impulse : N/s 해석, Force / m 
+2. Force.Impulse : N/s 해석, Force / m 
   
- 보통 델타타임이 0.02이니 impulse는 forse의 50배라고 생각하면됨.
+-> 보통 델타타임이 0.02이니 impulse는 forse의 50배라고 생각하면됨.
  
   EX)
   
-  playerRb.AddForce(Vector3.up * 50,ForceMode.Impulse);
+  1. playerRb.AddForce(Vector3.up * 50,ForceMode.Impulse);
   
-  playerRb.AddForce(Vector3.up * 500,ForceMode.Force);
+  2. playerRb.AddForce(Vector3.up * 500,ForceMode.Force);
   
   코드에 포함되어있는 상수값 : Literal
   
@@ -51,5 +51,16 @@ Force.Impulse : N/s 해석, Force / m
   
   [Header(" ")]
   
-  Original Prefab
-  Prefab Varient
+  Object 라는 최상의 클래스로부터 Instantiate로 복제 가능  
+  Prefab : 에셋(파일->보조 기억장치인 하드디스크)으로 저장한 게임오브젝트  
+  Instance ( V : Instantiate ) : 개체, 구체화된것, 게임 씬에 실제로 존재하는 것, 메모리에 존재하는 것  
+
+  C# Methods
+  - Instance Method : 객체가 있어야 호출이 가능하다 (박스 모양)
+  객체에 속해있는 값을 가지고 처리한다.
+  - Static Method : 객체가 없어도 클래스로 호출이 가능하다.  
+  
+  C++ Template -> C # Generic  
+  
+  Invoke
+  InvokeRepeating
