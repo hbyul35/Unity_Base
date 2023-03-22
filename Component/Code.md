@@ -64,3 +64,14 @@ Rigidbody 관련 코드는 FixedUpdate에서 사용
   
   Invoke
   InvokeRepeating
+  
+  Asset 선택 -> Inspector창에 Import Setting이 표시
+  
+  클래스 계층구조  
+  자식 - - -> 부모 : is a 관계
+  
+  자식 is a 부모 클래스 (O)  
+  부모 is a 자식 클래스 (X)  
+  
+  게임 오브젝트 찾기
+  GameObject.Find("Player").GetComponent<PlayerController>();
