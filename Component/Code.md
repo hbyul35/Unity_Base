@@ -75,3 +75,5 @@ Rigidbody 관련 코드는 FixedUpdate에서 사용
   
   게임 오브젝트 찾기
   GameObject.Find("Player").GetComponent<PlayerController>();
+  
+  중간에 원소 
