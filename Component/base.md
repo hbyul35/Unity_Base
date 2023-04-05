@@ -100,3 +100,17 @@
 
 - DirectionalLight : 방향이 중요한 주 광원
 
+- normalizedTime : 정규화된 시간. 무조건 시작은 0 , 끝은 1
+///////////////////////
+2단점프
+1. 2단 점프 변수선언 public float doubleJumpForce = 400.0f;
+2. 2번이니까 부울로 1단점픈지 2단점픈지 판별 public bool doubleJumpeUsed = false;
+3. 조건 붙여서  else if (Input.GetKeyDown(KeyCode.Space)&&!isOnGround && !doubleJumpeUsed)
+        {
+            doubleJumpeUsed = true;
+        }
+
+dash
+1. 대쉬 변수. 부울
+2. 애니메이터에서 실수형 파라미터 하나 추가
+3. 대쉬모드일경우 스피드 2
