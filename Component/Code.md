@@ -75,5 +75,16 @@ Rigidbody 관련 코드는 FixedUpdate에서 사용
   
   게임 오브젝트 찾기
   GameObject.Find("Player").GetComponent<PlayerController>();
+ 
+  ## corountine (코루틴)
+  병렬로 처리해서 동시 일 처리가 가능하다.  
+  IEnumerator를 자료형으로 코루틴 함수를 만든다.   
+  yield : return 앞에 붙이고 cpu를 양보해서 먼저 처리하도록 한다.
+    - WaitWhile  
   
-  중간에 원소 
+  StartCoroutine
+  StopCoroutine
+  
+  ### Fade() 함수
+  
+  
