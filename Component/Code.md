@@ -87,4 +87,8 @@ Rigidbody 관련 코드는 FixedUpdate에서 사용
   
   ### Fade() 함수
   
+  #### learp = Linear Interpolation(선형 보간, 1차 함수)  
+  보간 공식 : (1-t)s + t * e   
+  - > S + t(E - S)
   
+  Vector3.Lerp(시작값,끝값,0이면 파라미터1이고 1이면 파라미터 2 / 0.5라면 중간값이 나오겠지)
