@@ -92,3 +92,7 @@ Rigidbody 관련 코드는 FixedUpdate에서 사용
   - > S + t(E - S)
   
   Vector3.Lerp(시작값,끝값,0이면 파라미터1이고 1이면 파라미터 2 / 0.5라면 중간값이 나오겠지)
+  
+  sensitivity :
+  drag :  평행이동에서의 항력
+  angular drag : 회전에서의 항
