@@ -96,3 +96,10 @@ Rigidbody 관련 코드는 FixedUpdate에서 사용
   sensitivity :
   drag :  평행이동에서의 항력
   angular drag : 회전에서의 항
+
+  Inter polate (보간) : A, B 중간값
+  extra polate (외삽) : A, B 바깥 쪽 
+  
+  Collision Detection : 세세하게 충돌검사를 하는 정도  
+  
+  
