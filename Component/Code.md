@@ -102,4 +102,6 @@ Rigidbody 관련 코드는 FixedUpdate에서 사용
   
   Collision Detection : 세세하게 충돌검사를 하는 정도  
   
-  
+    
+  - Time.time : 게임 시작된 이후의 시간  
+  - Time.Scale :  
