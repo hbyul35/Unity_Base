@@ -106,8 +106,32 @@ Rigidbody 관련 코드는 FixedUpdate에서 사용
   - Time.time : 게임 시작된 이후의 시간  
   - Time.Scale :  
 
+  <hr/>
+  
+  # 12주차
+  
   GameObject.Find("부모게임오브젝트/자식게임오브젝트") 으로 중복된 게임 오브젝트도 쉽게 찾을 수 있다.  // /는 부모없는 게임오브젝트 찾음
   이렇게 할 경우 속도 향상에 도움이 된다.  
   
+  리지드바디는 fixedupdate 에서 하는게 좋다.  
   
+  ### VSync : 컴퓨터 디스플레이에서 그래픽 카드의 프레임 생성과 모니터의 프레임 출력 타이밍을 맞추도록(동기화) 하는 설정  
+  
+  Physic Material  
+  - Friction Comnine
+    - Multiply
+  
+  - OnTrigger  
+  다른 오브젝트와 충돌한 정보만  
+  - OnCollision  
+  충돌한 지점의 정보  
+  
+ - collision : 충돌에 관한 정보를 가진다. 컴포넌트가 아니고 클래스다.
+ - collider : 충돌 대상을 나타낸다. 컴포넌트의 역할을 한다.  
+  
+  컴포넌트는 게임오브젝트의 대리자 역할을 한다.  
+  this.transform -> this.gameObject.transform -> this.gameObject.GetComponent<Rigidbody> // 마지막 맞는지 몰겟음  
+  
+  ### string Interpolation : 문자열 보간  
+  $"문자열 {변수}로 한 번에 가능하다.";  
   
