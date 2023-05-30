@@ -135,3 +135,18 @@ Rigidbody 관련 코드는 FixedUpdate에서 사용
   ### string Interpolation : 문자열 보간  
   $"문자열 {변수}로 한 번에 가능하다.";  
   
+  # 6주차
+  
+  - 속력 : 크기 -> 스칼라(float, int) -> speed  
+  - 속도 : 크기, 방향 -> 벡터(vector3) -> velocity  
+  
+  C#  
+  - Pascal : 클래스, 메서드, 프로퍼티(C#표준)-> Rigidbody  
+  - Camel : 변수, 프로퍼티(유니티) -> rigidBody  
+  - Snake : MAX_NUM(static 변수, const, ...)  
+  
+  Unreal : Pascal(클래스, 함수, 변수)  
+  C++ 변수 : Carmel  
+  C 변수 : Snake  
+  
+  
